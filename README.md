@@ -15,7 +15,7 @@
 
 
 
-![DeepCollision](.\figures\DeepCollision.png)
+![DeepCollision](./figures/DeepCollision.png)
 
 
 
