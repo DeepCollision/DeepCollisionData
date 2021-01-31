@@ -2,7 +2,7 @@
 
 ```
 To facilitate reviewing our proposed approach, reviewers please refer to the corresponding data in this repository: 
-Piloty Study, all data for the pilot study; 
+Piloty Study, all data and figures for the pilot study; 
 Formal Experiment, all data for the formal experiment; 
 Restful APIs, all implemented REST APIs for environment parameters.
 ```
