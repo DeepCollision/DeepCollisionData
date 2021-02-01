@@ -11,7 +11,7 @@ Restful APIs, all implemented REST APIs for environment parameters.
 
 **DeepCollision** learns environment configurations to maximize collisions of an Autonomous Vehicle Under Test (AVUT). As shown in the following figure, DeepCollision employs a *Simulator* (e.g., LGSVL) to simulate the *Testing Environment* comprising the AVUT and its operating environment. DeepCollision also integrates with an *Autopilot Algorithm Platform* (e.g., the Baidu Apollo ) deployed on the AVUT to enable its autonomous driving.
 
-<div align=center><src="https://github.com/DeepCollision/DeepCollisionData/blob/main/figures/Overview.png"/ "Magic Gardens"></div>
+<div align=center><img src="https://github.com/DeepCollision/DeepCollisionData/blob/main/figures/Overview.png"/ "Magic Gardens"></div>
 
 **DeepCollision** employs a DQN component to generate a set of actions to configure the environment of the AVUT, e.g., weather condition, time of day. At each time step $t$, the DQN component observes a state $S_t$ describing the current states of the AVUT and its environment. With the state, DeepCollision decides an action $A_t$ based on the Q-network with the policy $\pi$. With our developed *Environment Configuration REST API*, such an action $A_t$ can be considered as an HTTP request for accessing the simulator to introduce new environment configurations. After the AVUT driving into a new environment within a fixed time period, both the AVUT and its environment will enter a new state $S_{t+1}$. Based on the observed states of the AVUT and its environment, *Reward calculator* calculates a reward $R_{t}$ for $A_t$ and $S_{t}$ at $t+1$. Then DQN stores them (as $<S_t$, $A_t$, $R_t$, $S_{t+1}>$) into the replay memory buffer.
 
