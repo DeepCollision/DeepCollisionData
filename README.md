@@ -17,4 +17,5 @@
 Once the replay memory is full, Q-network will be updated based on the loss function by a mini-batch randomly selected from the updated replay memory. In addition, with S<sub>t+1</sub>, the (updated) Q-network with policy <a href="https://www.codecogs.com/eqnedit.php?latex=\pi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\pi" title="\pi" /></a> decides the next action: A<sub>t+1</sub>. In DeepCollision, an episode is finished once the AVUT arrives at its destination or the AVUT cannot move for a specific duration. 
 
 At each time step t, the information about the AVUT (e.g., its driving and collision status) and its environment (e.g., its status and driving scenarios) are stored as *Environment Configuration Logs* for further analyses and collision replaying. 
+
 More details of Hyper-parameters of DQN used in DeepCollision can be accessed here [Hyperparameter](https://github.com/DeepCollision/DeepCollisionData/blob/main/DeepCollison%20Algorithm/Hyper-parameters.md).
