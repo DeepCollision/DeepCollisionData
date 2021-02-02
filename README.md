@@ -2,7 +2,7 @@
 
 ```
 To facilitate reviewing our proposed approach, reviewers please refer to the corresponding data in this repository:
-DeepCollision Algorithm: pseudocode for DeepCollision and Hyper-parameters of DQN in DeepCollision;
+DeepCollision Algorithm, pseudocode for DeepCollision and Hyper-parameters of DQN in DeepCollision;
 Formal Experiment, all data for the formal experiment; 
 Piloty Study, all data and plots for the pilot study; 
 REST APIs, all implemented REST APIs for environment parameters.
