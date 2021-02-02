@@ -1,14 +1,12 @@
 # Public Data for Peer Review of DeepCollision 
 
-```
-To facilitate reviewing our proposed approach, reviewers please refer to the corresponding data in this repository:
-DeepCollision Algorithm, pseudocode for DeepCollision and Hyper-parameters of DQN in DeepCollision;
-Formal Experiment, all data for the formal experiment; 
-Piloty Study, all data and plots for the pilot study; 
-REST APIs, all implemented REST APIs for environment parameters.
-```
+> To facilitate reviewing our proposed approach, reviewers please refer to the corresponding data in this repository:
+> **DeepCollision Algorithm**, pseudocode for DeepCollision and Hyper-parameters of DQN in DeepCollision;
+> **Formal Experiment**, all data and plots for the formal experiment; 
+> **Piloty Study**, all data and plots for the pilot study; 
+> **REST APIs**, all implemented REST APIs for environment parameters.
 
-## 1. Overview of DeepCollision
+## Overview of DeepCollision
 
 **DeepCollision** learns environment configurations to maximize collisions of an Autonomous Vehicle Under Test (AVUT). As shown in the following figure, DeepCollision employs a *Simulator* (e.g., LGSVL) to simulate the *Testing Environment* comprising the AVUT and its operating environment. DeepCollision also integrates with an *Autopilot Algorithm Platform* (e.g., the Baidu Apollo ) deployed on the AVUT to enable its autonomous driving.
 
