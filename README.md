@@ -18,4 +18,4 @@ Once the replay memory is full, Q-network will be updated based on the loss func
 
 At each time step t, the information about the AVUT (e.g., its driving and collision status) and its environment (e.g., its status and driving scenarios) are stored as *Environment Configuration Logs* for further analyses and collision replaying. 
 
-More details of Hyper-parameters of DQN used in DeepCollision can be accessed here [Hyperparameter](https://github.com/DeepCollision/DeepCollisionData/blob/main/DeepCollison%20Algorithm/Hyper-parameters.md).
+More details of Hyper-parameters of DQN used in DeepCollision can be accessed here [Hyper-parameters](https://github.com/DeepCollision/DeepCollisionData/blob/main/DeepCollison%20Algorithm/Hyper-parameters.md).
