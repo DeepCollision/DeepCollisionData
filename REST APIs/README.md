@@ -1,151 +1,155 @@
 # LGSVL RESTful API
 
 ## Main Page
-[http://DeepCollision/LGSVL](http://119.45.188.204:5000/LGSVL)
+[http://119.45.188.204:5000/LGSVL]
+
 ## Command API [POST]
 ### Load Scene
-http://DeepCollision/LGSVL/LoadScene?scene=<scene_name>
+http://119.45.188.204:5000/LGSVL/LoadScene?scene=<scene_name>
+
+In our experiment the scene_name is 'SanFrancisco'.
+
 ### Set weather effect
 **1. Nice weather**  
-http://DeepCollision/LGSVL/Control/Weather/Nice  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Nice  
 **2. Rain**  
 2.1. Light Rain  
-http://DeepCollision/LGSVL/Control/Weather/Rain?rain_level=Light  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Rain?rain_level=Light  
 2.2. Moderate Rain  
-http://DeepCollision/LGSVL/Control/Weather/Rain?rain_level=Moderate  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Rain?rain_level=Moderate  
 2.3. Heavy Rain  
-http://DeepCollision/LGSVL/Control/Weather/Rain?rain_level=Heavy  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Rain?rain_level=Heavy  
 **3. Fog**  
 3.1. Light Fog  
-http://DeepCollision/LGSVL/Control/Weather/Fog?fog_level=Light  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Fog?fog_level=Light  
 3.2. Moderate Fog  
-http://DeepCollision/LGSVL/Control/Weather/Fog?fog_level=Moderate  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Fog?fog_level=Moderate  
 3.3. Heavy Fog  
-http://DeepCollision/LGSVL/Control/Weather/Fog?fog_level=Heavy  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Fog?fog_level=Heavy  
 **4. Wetness**  
 4.1. Light Wetness  
-http://DeepCollision/LGSVL/Control/Weather/Wetness?wetness_level=Light  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Wetness?wetness_level=Light  
 4.2. Moderate Wetness  
-http://DeepCollision/LGSVL/Control/Weather/Wetness?wetness_level=Moderate  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Wetness?wetness_level=Moderate  
 4.3. Heavy Wetness  
-http://DeepCollision/LGSVL/Control/Weather/Wetness?wetness_level=Heavy  
+http://119.45.188.204:5000/LGSVL/Control/Weather/Wetness?wetness_level=Heavy  
 
 ### Set time of day
 **5. Time of Day**  
 5.1. Morning  
-http://DeepCollision/LGSVL/Control/TimeOfDay?time_of_day=Morning  
+http://119.45.188.204:5000/LGSVL/Control/TimeOfDay?time_of_day=Morning  
 5.2. Noon  
-http://DeepCollision/LGSVL/Control/TimeOfDay?time_of_day=Noon  
+http://119.45.188.204:5000/LGSVL/Control/TimeOfDay?time_of_day=Noon  
 5.3. Evening  
-http://DeepCollision/LGSVL/Control/TimeOfDay?time_of_day=Evening  
+http://119.45.188.204:5000/LGSVL/Control/TimeOfDay?time_of_day=Evening  
 ### Agents control
 **6. NPC Vehicle**  
 6.1. NPC Vehicle Switch Lane  
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Sedan
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Sedan
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=Sedan
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=Sedan
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=Sedan
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=Sedan
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=SUV
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=SUV
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=SUV
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=SUV
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=SUV
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=SUV
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Jeep
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Jeep
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=Jeep
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=Jeep
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=Jeep
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=Jeep
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=SchoolBus
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=SchoolBus
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=SchoolBus
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=SchoolBus
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=BoxTruck
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Left_Lane&which_car=BoxTruck
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=BoxTruck
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Right_Lane&which_car=BoxTruck
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=BoxTruck
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleSwitchLane?which_lane=Current_Lane&which_car=BoxTruck
 
 6.2. NPC Vehicle Maintain Lane
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=Sedan
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=Sedan
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=Sedan
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=Sedan
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=Sedan
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=Sedan
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=SUV
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=SUV
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=SUV
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=SUV
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=SUV
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=SUV
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=Jeep
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=Jeep
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=Jeep
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=Jeep
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=Jeep
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=Jeep
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=Hatchback
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=Hatchback
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=SchoolBus
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=SchoolBus
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=SchoolBus
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=SchoolBus
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=SchoolBus
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=SchoolBus
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=BoxTruck
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Left_Lane&which_car=BoxTruck
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=BoxTruck
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Right_Lane&which_car=BoxTruck
 
-http://DeepCollision/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=BoxTruck
+http://119.45.188.204:5000/LGSVL/Control/Agents/NPCVehicle/NPCVehicleMaintainLane?which_lane=Current_Lane&which_car=BoxTruck
 
 6.2. NPC Vehicle Stop On Lane
 
 **7. Pedestrians**  
 7.1. Pedestrian walk on left lane  
-http://DeepCollision/LGSVL/Control/Agents/Pedestrians/WalkRandomly?which_lane=Left_Lane  
+http://119.45.188.204:5000/LGSVL/Control/Agents/Pedestrians/WalkRandomly?which_lane=Left_Lane  
 7.2. Pedestrian walk on right lane  
-http://DeepCollision/LGSVL/Control/Agents/Pedestrians/WalkRandomly?which_lane=Right_Lane  
+http://119.45.188.204:5000/LGSVL/Control/Agents/Pedestrians/WalkRandomly?which_lane=Right_Lane  
 7.3. Pedestrian walk on current lane  
-http://DeepCollision/LGSVL/Control/Agents/Pedestrians/WalkRandomly?which_lane=Current_Lane  
+http://119.45.188.204:5000/LGSVL/Control/Agents/Pedestrians/WalkRandomly?which_lane=Current_Lane  
 
 ### Objects control
 **8. Traffic Light**  
-http://DeepCollision/LGSVL/Control/ControllableObjects/TrafficLight  
+http://119.45.188.204:5000/LGSVL/Control/ControllableObjects/TrafficLight  
 ## Status API [GET]
 ### EGO Vehicle Data
 **1. Get Collision Information**  
-http://DeepCollision/LGSVL/Status/CollisionInfo  
+http://119.45.188.204:5000/LGSVL/Status/CollisionInfo  
 **2. EGO Vehicle Status**  
 2.1. Speed  
-http://DeepCollision/LGSVL/Status/EGOVehicle/Speed  
+http://119.45.188.204:5000/LGSVL/Status/EGOVehicle/Speed  
 2.2. Position  
-http://DeepCollision/LGSVL/Status/EGOVehicle/Position  
+http://119.45.188.204:5000/LGSVL/Status/EGOVehicle/Position  
 ### Sensors Data
 **3. GPS Data**  
 3.1. Latitude  
-http://DeepCollision/LGSVL/Status/GPS/Latitude  
+http://119.45.188.204:5000/LGSVL/Status/GPS/Latitude  
 3.2. Longitude  
-http://DeepCollision/LGSVL/Status/GPS/Longitude  
+http://119.45.188.204:5000/LGSVL/Status/GPS/Longitude  
 3.3. Northing  
-http://DeepCollision/LGSVL/Status/GPS/Northing  
+http://119.45.188.204:5000/LGSVL/Status/GPS/Northing  
 3.4. Easting  
-http://DeepCollision/LGSVL/Status/GPS/Easting  
+http://119.45.188.204:5000/LGSVL/Status/GPS/Easting  
 3.5. Altitude  
-http://DeepCollision/LGSVL/Status/GPS/Altitude 
+http://119.45.188.204:5000/LGSVL/Status/GPS/Altitude 
