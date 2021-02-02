@@ -1,7 +1,7 @@
 # LGSVL RESTful API
 
 ## Main Page
-[http://119.45.188.204:5000/LGSVL]
+http://119.45.188.204:5000/LGSVL
 
 ## Command API [POST]
 ### Load Scene
