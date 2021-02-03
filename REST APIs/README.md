@@ -2,7 +2,7 @@
 
 > Due to the double-blind reviewing, we currently present the API list and one example for calling URLs, the full API source code will be open after reviewing.<br/>
 > This document list all the REST APIs in DeepCollision for environment parameter configurations.<br/>
-> An example demonstrating how to use these API to write your own Python programs can be seen here [EXAMPLE](https://github.com/DeepCollision/DeepCollisionData/blob/main/REST%20APIs/EXAMPLE.md).<br/>
+> An example demonstrating how to use these APIs to write your own Python programs can be seen here [EXAMPLE](https://github.com/DeepCollision/DeepCollisionData/blob/main/REST%20APIs/EXAMPLE.md).<br/>
 
 ## Main Page
 http://119.45.188.204:5000/LGSVL
