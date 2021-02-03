@@ -1,11 +1,18 @@
 # LGSVL RESTful API
 
+```python
+import request
+requests.post("http://119.45.188.204:5000/LGSVL/LoadScene?scene=SanFrancisco&road_num=1")
+```
+
+
+
 ## Main Page
 [http://119.45.188.204:5000/LGSVL]
 
 ## Command API [POST]
 ### Load Scene
-http://119.45.188.204:5000/LGSVL/LoadScene?scene=<scene_name>
+http://119.45.188.204:5000/LGSVL/LoadScene?scene=<scene_name>&road_num=<road_num>
 
 In our experiment the scene_name is 'SanFrancisco'.
 
