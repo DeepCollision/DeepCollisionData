@@ -8,7 +8,7 @@ requests.post("http://119.45.188.204:5000/LGSVL/LoadScene?scene=SanFrancisco&roa
 
 
 ## Main Page
-[http://119.45.188.204:5000/LGSVL]
+http://119.45.188.204:5000/LGSVL
 
 ## Command API [POST]
 ### Load Scene
