@@ -5,7 +5,8 @@
 ## Ⅰ. DeepCollision REST API Example
 
 > This section is an example demonstrating how to use **DeepCollision REST APIs** for environment parameter configurations.<br/>
-> You can refer it to write your own Python programs.
+> You can refer it to write your own Python programs.<br/>
+> Also we provide a [video](https://github.com/DeepCollision/DeepCollisionData/blob/main/REST%20APIs/Demo.mkv) to show an running example.
 
 ### Step 1: Load scene and generate AVUT's position
 
