@@ -9,7 +9,7 @@
 
 ### Step 1: Load scene and generate AVUT's position
 
-There are a two parameters in **LoadScene API**: the first one is Map, and the second one is the road which the AVUT will drive on.
+There are two parameters in **LoadScene API**: the first one is Map, and the second one is the road which the AVUT will drive on.
 
 ```python
 import request
