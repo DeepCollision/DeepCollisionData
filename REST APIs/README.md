@@ -1,7 +1,5 @@
 # DeepCollision REST APIs
 
-> **Due to the double-blind reviewing, we currently present the API list and one example for calling URLs, the full API source code will be open after reviewing.**<br/>
-
 ## Ⅰ. DeepCollision REST API Example
 
 > This section is an example demonstrating how to use **DeepCollision REST APIs** for environment parameter configurations.<br/>
